@@ -2,3 +2,75 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.omne img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 30px 30px 20px 30px;
+}
+section {
+    padding: 50px 15px;
+    overflow: auto;
+    text-align: center;
+}
+
+.hlavicka {
+    overflow: auto;
+ }
+
+.omne {
+    background-color: lightpink;
+}
+
+.vzdelani,
+.zajmy {
+    background-color: lightgrey;
+}
+
+.zkusenosti,
+.kontakty {
+    background-color: lightpink;
+}
+
+.paticka {
+    background-color: lightgrey;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.hlavicka {
+    background-color: lightgray;
+}
+
+.omne img {
+    float: left;
+}
+
+.tab {
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: left;
+}
+
+
+.paticka {
+    text-align: center;
+}

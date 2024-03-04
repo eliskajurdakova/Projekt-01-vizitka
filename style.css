@@ -74,3 +74,35 @@ section {
 .paticka {
     text-align: center;
 }
+
+.hlavicka {
+    background-image: url(obrazky/hlavicka.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.omne .text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items: center;
+    text-align: justify;
+}
+
+.menu {
+    list-style: none;
+    color:blue;
+    background-color: brown;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+}
